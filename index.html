@@ -13,14 +13,14 @@
 		<header class="header">
 			<nav class="header-nav">
 				<ul class="header-nav-box">
-					<li style="list-style-type: none">
-						<a href="#cover" class="link-active">главная</a>
+					<li class="link-style-none">
+						<a href="#section-cover" class="link">главная</a>
 					</li>
 					<li><a href="#lots" class="link">посмотреть лоты</a></li>
 					<li><a href="#about-auction" class="link">об аукционе</a></li>
 				</ul>
 			</nav>
-			<a><img class="logo-white" src="/images/logo-black.svg" alt="logo" /></a>
+			<a><img class="header-logo-img" src="./images/logo-black.svg" alt="logo" /></a>
 			<address class="address">
 				<a>+9 999 555 5555</a>
 				<p><a>info@sobaka.ge</a></p>
@@ -29,17 +29,16 @@
 			</address>
 		</header>
 
-		<main class="cover" id="cover">
-			<div class="overlay">
-				<h1 class="cover-title">
-					<span class="accent-span">оно</span>
-					<span class="title-center accent-span">т е б е</span>
-					<span class="title-right accent-span">н а д о</span>
-				</h1>
-				<div class="cover-desc-box">
-					<p class="cover-desc-text">Аукцион вещей, в которые никто не верил</p>
-					<button class="btn-desc">Сделать ставку</button>
-				</div>
+		<main class="section-cover" id="section-cover">
+			<div class="overlay"></div>
+			<h1 class="cover-title">
+				<span class="accent-span">оно</span>
+				<span class="title-center accent-span">т е б е</span>
+				<span class="title-right accent-span">н а д о</span>
+			</h1>
+			<div class="cover-desc-box">
+				<p class="cover-desc-text">Аукцион вещей, в которые никто не верил</p>
+				<button class="btn-desc">Сделать ставку</button>
 			</div>
 		</main>
 		<section class="lots" id="lots">
@@ -59,22 +58,21 @@
 					</div>
 				</li>
 				<li class="lots-card-item card-type-book">
-					<div class="overlay">
-						<a class="card-link"
-							><article class="card-box">
-								<h3 class="card-title">
-									Книга, где описан один скучный день из жизни рекламного агента
-								</h3>
-								<p class="card-text">
-									Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-									переходами на древнеанглийский. В ней одновременно рассказывается о 16
-									июня 1904 года и об истории литературы, начиная с античных времён. И это
-									всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на
-									«Улисса» Джеймса Джойса?
-								</p>
-							</article></a
-						>
-					</div>
+					<div class="overlay"></div>
+					<a class="card-link"
+						><article class="card-box">
+							<h3 class="card-title">
+								Книга, где описан один скучный день из жизни рекламного агента
+							</h3>
+							<p class="card-text">
+								Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+								переходами на древнеанглийский. В ней одновременно рассказывается о 16
+								июня 1904 года и об истории литературы, начиная с античных времён. И это
+								всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на
+								«Улисса» Джеймса Джойса?
+							</p>
+						</article></a
+					>
 				</li>
 				<li class="lots-card-item card-type-picture">
 					<div class="overlay">
@@ -93,13 +91,13 @@
 						>
 					</div>
 				</li>
-				<span class="lots-more-link"><a>посмотреть больше</a></span>
 			</ul>
+			<span class="lots-more-link"><a>посмотреть больше</a></span>
 		</section>
 		<section class="about-auction" id="about-auction">
 			<div class="about-column-box">
 				<div class="about-column-logo">
-					<img class="about-logo-image" src="/images/logo-white.svg" alt="logo" />
+					<img class="about-logo-image" src="./images/logo-white.svg" alt="logo" />
 				</div>
 				<div class="about-column-text">
 					<h2 class="about-title">Об аукционе</h2>
@@ -110,15 +108,14 @@
 						нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные
 						любителями?
 					</p>
-
-					<span class="about-text">
+					<p class="about-text">
 						Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух
 						и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались
-						просто неудачными. Но, несмотря <br> на критику, кажущуюся простоту или сложность,
-						сейчас без этих  лотов невозможно представить современную культуру. Когда в эти
+						просто неудачными. Но, несмотря, на критику, кажущуюся простоту или сложность,
+						сейчас без этих лотов невозможно представить современную культуру. Когда в эти
 						вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали
 						культовыми.
-					</span>
+					</p>
 				</div>
 			</div>
 		</section>
@@ -133,25 +130,31 @@
 			</address>
 			<nav class="footer-menu">
 				<ul class="footer-menu-item">
-					<li class="link-active"><a href="#cover">главная</a></li>
-					<li class="link"><a href="#lots">посмотреть лоты</a></li>
-					<li class="link-after"><a href="#about-auction">об аукционе</a></li>
+					<li><a class="link" href="#section-cover">главная</a></li>
+					<li><a class="link" href="#lots">посмотреть лоты</a></li>
+					<li><a class="link" href="#about-auction">об аукционе</a></li>
 				</ul>
 			</nav>
-			<div class="footer-social-item">
-				<a class="footer-social-link"
-					><img class="footer-social-icon" src="./images/yt.svg" alt="youtube-logo"
-				/></a>
-				<a class="footer-social-link"
-					><img class="footer-social-icon" src="./images/vk.svg" alt="vk-logo"
-				/></a>
-				<a class="footer-social-link"
-					><img
-						class="footer-social-icon"
-						src="./images/pinterest.svg"
-						alt="pinterest-logo"
-				/></a>
-			</div>
+			<ul class="footer-social-item">
+				<li>
+					<a class="footer-social-link"
+						><img class="footer-social-icon" src="./images/yt.svg" alt="youtube-logo"
+					/></a>
+				</li>
+				<li>
+					<a class="footer-social-link"
+						><img class="footer-social-icon" src="./images/vk.svg" alt="vk-logo"
+					/></a>
+				</li>
+				<li>
+					<a class="footer-social-link"
+						><img
+							class="footer-social-icon"
+							src="./images/pinterest.svg"
+							alt="pinterest-logo"
+					/></a>
+				</li>
+			</ul>
 		</footer>
 	</body>
 </html>
