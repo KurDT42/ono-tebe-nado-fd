@@ -14,7 +14,7 @@
 			<nav class="header-nav">
 				<ul class="header-nav-box">
 					<li class="link-style-none">
-						<a href="#section-cover" class="link">главная</a>
+						<a href="#section-cover" class="link link-active">главная</a>
 					</li>
 					<li><a href="#lots" class="link">посмотреть лоты</a></li>
 					<li><a href="#about-auction" class="link">об аукционе</a></li>
@@ -29,23 +29,24 @@
 			</address>
 		</header>
 
-		<main class="section-cover" id="section-cover">
-			<div class="overlay"></div>
-			<h1 class="cover-title">
-				<span class="accent-span">оно</span>
-				<span class="title-center accent-span">т е б е</span>
-				<span class="title-right accent-span">н а д о</span>
-			</h1>
-			<div class="cover-desc-box">
-				<p class="cover-desc-text">Аукцион вещей, в которые никто не верил</p>
-				<button class="btn-desc">Сделать ставку</button>
-			</div>
-		</main>
-		<section class="lots" id="lots">
-			<h2 class="lots-title">Лоты</h2>
-			<ul class="lots-card-list-box">
-				<li class="lots-card-item card-type-film">
-					<div class="overlay">
+		<main class="main" id="section-cover">
+			<section class="section-cover">
+				<div class="overlay"></div>
+				<h1 class="cover-title">
+					<span class="accent-span">оно</span>
+					<span class="title-center accent-span">т е б е</span>
+					<span class="title-right accent-span">н а д о</span>
+				</h1>
+				<div class="cover-desc-box">
+					<p class="cover-desc-text">Аукцион вещей, в которые никто не верил</p>
+					<button class="btn-desc">Сделать ставку</button>
+				</div>
+			</section>
+			<section class="lots" id="lots">
+				<h2 class="lots-title">Лоты</h2>
+				<ul class="lots-card-list-box">
+					<li class="lots-card-item card-type-film">
+						<div class="overlay"></div>
 						<a class="card-link"
 							><article class="card-box">
 								<h3 class="card-title">Фильм режиссёра, который бросил киношколу</h3>
@@ -55,27 +56,26 @@
 								</p>
 							</article></a
 						>
-					</div>
-				</li>
-				<li class="lots-card-item card-type-book">
-					<div class="overlay"></div>
-					<a class="card-link"
-						><article class="card-box">
-							<h3 class="card-title">
-								Книга, где описан один скучный день из жизни рекламного агента
-							</h3>
-							<p class="card-text">
-								Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-								переходами на древнеанглийский. В ней одновременно рассказывается о 16
-								июня 1904 года и об истории литературы, начиная с античных времён. И это
-								всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на
-								«Улисса» Джеймса Джойса?
-							</p>
-						</article></a
-					>
-				</li>
-				<li class="lots-card-item card-type-picture">
-					<div class="overlay">
+					</li>
+					<li class="lots-card-item card-type-book">
+						<div class="overlay"></div>
+						<a class="card-link"
+							><article class="card-box">
+								<h3 class="card-title">
+									Книга, где описан один скучный день из жизни рекламного агента
+								</h3>
+								<p class="card-text">
+									Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+									переходами на древнеанглийский. В ней одновременно рассказывается о 16
+									июня 1904 года и об истории литературы, начиная с античных времён. И это
+									всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на
+									«Улисса» Джеймса Джойса?
+								</p>
+							</article></a
+						>
+					</li>
+					<li class="lots-card-item card-type-picture">
+						<div class="overlay"></div>
 						<a class="card-link"
 							><article class="card-box">
 								<h3 class="card-title">
@@ -89,36 +89,36 @@
 								</p>
 							</article></a
 						>
+					</li>
+				</ul>
+				<span class="lots-more-link"><a>посмотреть больше</a></span>
+			</section>
+			<section class="about-auction" id="about-auction">
+				<div class="about-column-box">
+					<div class="about-column-logo">
+						<img class="about-logo-image" src="./images/logo-white.svg" alt="logo" />
 					</div>
-				</li>
-			</ul>
-			<span class="lots-more-link"><a>посмотреть больше</a></span>
-		</section>
-		<section class="about-auction" id="about-auction">
-			<div class="about-column-box">
-				<div class="about-column-logo">
-					<img class="about-logo-image" src="./images/logo-white.svg" alt="logo" />
+					<div class="about-column-text">
+						<h2 class="about-title">Об аукционе</h2>
+						<p class="about-text">
+							Здесь вы не встретите очередное пафосное собрание невероятно дорогого
+							антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион.
+							Потому что кому нужен дневник девочки-подростка или картина, которую может
+							нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные
+							любителями?
+						</p>
+						<p class="about-text">
+							Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В
+							пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они
+							казались просто неудачными. Но, несмотря, на критику, кажущуюся простоту или
+							сложность, сейчас без этих лотов невозможно представить современную
+							культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И
+							сейчас эти лоты стали культовыми.
+						</p>
+					</div>
 				</div>
-				<div class="about-column-text">
-					<h2 class="about-title">Об аукционе</h2>
-					<p class="about-text">
-						Здесь вы не встретите очередное пафосное собрание невероятно дорогого
-						антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион.
-						Потому что кому нужен дневник девочки-подростка или картина, которую может
-						нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные
-						любителями?
-					</p>
-					<p class="about-text">
-						Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух
-						и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались
-						просто неудачными. Но, несмотря, на критику, кажущуюся простоту или сложность,
-						сейчас без этих лотов невозможно представить современную культуру. Когда в эти
-						вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали
-						культовыми.
-					</p>
-				</div>
-			</div>
-		</section>
+			</section>
+		</main>
 		<footer class="footer">
 			<address class="address-footer-item">
 				<a>+9 999 555 5555</a>
@@ -130,7 +130,7 @@
 			</address>
 			<nav class="footer-menu">
 				<ul class="footer-menu-item">
-					<li><a class="link" href="#section-cover">главная</a></li>
+					<li><a class="link link-active" href="#section-cover">главная</a></li>
 					<li><a class="link" href="#lots">посмотреть лоты</a></li>
 					<li><a class="link" href="#about-auction">об аукционе</a></li>
 				</ul>
